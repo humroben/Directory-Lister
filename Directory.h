@@ -14,6 +14,9 @@ public:
 	void SetAttributes(std::string path);
 	void Init(std::string path);
 
+	void Create(std::string path);
+	void Remove(std::string path);
+
 	void Print(std::string pad = "");
 
 private:
